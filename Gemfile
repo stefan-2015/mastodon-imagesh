@@ -119,10 +119,11 @@ group :test do
   gem 'microformats', '~> 4.4'
   gem 'rails-controller-testing', '~> 1.0'
   gem 'rspec-sidekiq', '~> 3.1'
-  gem 'simplecov', '~> 0.21', require: false
+  gem 'simplecov', '~> 0.22', require: false
   gem 'webmock', '~> 3.18'
   gem 'rspec_junit_formatter', '~> 0.6'
   gem 'rack-test', '~> 2.0'
+  gem "fast_ci", '1.0.11'
 end
 
 group :development do
@@ -136,7 +137,7 @@ group :development do
   gem 'memory_profiler'
   gem 'rubocop', '~> 1.30', require: false
   gem 'rubocop-rails', '~> 2.15', require: false
-  gem 'brakeman', '~> 5.3', require: false
+  gem 'brakeman', '~> 5.4', require: false
   gem 'bundler-audit', '~> 0.9', require: false
 
   gem 'capistrano', '~> 3.17'
