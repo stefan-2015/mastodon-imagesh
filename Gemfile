@@ -3,6 +3,7 @@
 source 'https://rubygems.org'
 ruby '>= 2.6.0', '< 3.1.0'
 
+
 gem 'pkg-config', '~> 1.4'
 gem 'rexml', '~> 3.2'
 
@@ -83,8 +84,8 @@ gem 'sidekiq', '~> 6.5'
 gem 'sidekiq-scheduler', '~> 4.0'
 gem 'sidekiq-unique-jobs', '~> 7.1'
 gem 'sidekiq-bulk', '~> 0.2.0'
-gem 'simple-navigation', '~> 4.4'
-gem 'simple_form', '~> 5.1'
+gem 'simple-navigation'
+gem 'simple_form'
 gem 'sprockets-rails', '~> 3.4', require: 'sprockets/railtie'
 gem 'stoplight', '~> 3.0.0'
 gem 'strong_migrations', '~> 0.7'
@@ -119,10 +120,11 @@ group :test do
   gem 'microformats', '~> 4.4'
   gem 'rails-controller-testing', '~> 1.0'
   gem 'rspec-sidekiq', '~> 3.1'
-  gem 'simplecov', '~> 0.21', require: false
+  gem 'simplecov', require: false
   gem 'webmock', '~> 3.18'
   gem 'rspec_junit_formatter', '~> 0.6'
   gem 'rack-test', '~> 2.0'
+  gem 'fast_ci', '>= 1.0.11'
 end
 
 group :development do
@@ -136,7 +138,7 @@ group :development do
   gem 'memory_profiler'
   gem 'rubocop', '~> 1.30', require: false
   gem 'rubocop-rails', '~> 2.15', require: false
-  gem 'brakeman', '~> 5.3', require: false
+  gem 'brakeman', '~> 5.4', require: false
   gem 'bundler-audit', '~> 0.9', require: false
 
   gem 'capistrano', '~> 3.17'
