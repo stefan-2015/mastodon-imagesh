@@ -288,14 +288,6 @@ GEM
     faraday-rack (1.0.0)
     faraday-retry (1.0.3)
     fast_blank (1.0.1)
-    fast_ci (1.0.11)
-      async-websocket (<= 0.20.0)
-      brakeman (>= 5.4.1)
-      console (>= 1.10.0)
-      minitest-rails (>= 2.2.1)
-      rspec-core (>= 3.6.0)
-      rubycritic (>= 4.1.0)
-      simplecov (>= 0.22.0)
     fastimage (2.2.6)
     ffi (1.15.5)
     ffi-compiler (1.0.1)
@@ -866,7 +858,7 @@ DEPENDENCIES
   fabrication (~> 2.30)
   faker (~> 2.23)
   fast_blank (~> 1.0)
-  fast_ci (= 1.0.11)
+  fast_ci
   fastimage
   fog-core (<= 2.1.0)
   fog-openstack (~> 0.3)
