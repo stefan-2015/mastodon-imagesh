@@ -123,7 +123,7 @@ group :test do
   gem 'webmock', '~> 3.18'
   gem 'rspec_junit_formatter', '~> 0.6'
   gem 'rack-test', '~> 2.0'
-  gem "fast_ci", '1.0.11'
+  gem "fast_ci"
 end
 
 group :development do
